@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chilanka&family=Gamja+Flower&family=Mountains+of+Christmas:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Memory Game</title>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="start-screen">
+      <div class="start-field">
+        <h3>Skriv in era namn för att börja spela</h3>
+        <input type="text" placeholder="Spelare 1" class="player-one-field" />
+        <input type="text" placeholder="Spelare 2" class="player-two-field" />
+        <button class="start-btn">Starta spelet</button>
+      </div>
+    </div>
+
+    <h1>Christmas Memory Game</h1>
+    <div class="game-wrapper">
+      <div class="game-container">
+        <div class="score-container">
+          <div class="score-header">
+            <h2>Din tur att spela:</h2>
+            <label class="player-turn-holder"></label>
+          </div>
+          <h3>Poäng:</h3>
+          <p class="player-one-score"></p>
+          <p class="player-two-score"></p>
+        </div>
+
+        <div class="card-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
